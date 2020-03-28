@@ -43,3 +43,8 @@ bootJar {
 		attributes 'Implementation-Title': project.name, 'Implementation-Version': project.version
 	}
 }
+
+compileJava {
+	sourceCompatibility = '1.8'
+	targetCompatibility = '1.8'
+}
